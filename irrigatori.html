@@ -1,0 +1,305 @@
+
+<!-- Site-ul Gica -->
+
+
+<!-- Head  -->
+
+
+ <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>New Green</title>
+    <link rel="Shortcut icon" href="img/logoverde.jpg"/>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="css/style.css" rel="stylesheet"/>
+	<link href="css/lightbox.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
+	
+	
+	<script src="Scripts/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+	<script type="text/javascript" src="js/lightbox-plus-jquery.js"></script>
+ 
+ </head>
+
+
+<body>
+
+<!--Bara de navigare fixa de sus -->
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+	<button type="button" class="navbar-toggle"
+	data-toggle="collapse"
+	data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand" href="index.html">New Green</a>
+  <div class="navbar-collapse collapse">
+   <ul class="nav navbar-nav navbar-right">
+    <li class="active"><a href="index.html"> Home </a></li>
+	<li><a href="#" data-toggle="modal" data-target="#MyModal">Contatta</a></li>
+	<li><a href="contact" data-toggle="modal" data-target="#contact">Email</a></li>
+	
+   </ul>
+  </div>
+    </div>
+  
+	</nav>
+
+<!-- jumbutron -->
+<div class="container" id="bg">
+<h1 class="text-center"><U><B><font color="green">New Green - Irrigazione</font></B></U></h1>	
+	
+	
+	
+	
+	
+	
+<!-- se introduce acest carusel pentru a pune imagini in loc de jumbutron -->
+      <div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <ol class="carousel-indicators" >
+            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1"></li>
+            <li data-target="#mycarousel" data-slide-to="2"></li>
+        </ol>
+	 
+
+   <div class="carousel-inner">
+
+    <div class="item active">
+   <div class="container">
+
+	  </div>
+	 <img src="img/1.jpg">
+	 <div class="carousel-caption">
+	 <h1>Cura del verde</h1>
+	        
+	 </div>
+    </div>
+     <div class="item">
+	    <div class="container">
+
+	  </div>
+     <img src="img/2.jpg">
+	 <div class="carousel-caption">
+	 <h1>Irrigazione del verde </h1>
+	        
+	 </div>
+    </div>
+     <div class="item">
+	    <div class="container">
+
+	  </div>
+     <img src="img/3.jpg">
+	 <div class="carousel-caption">
+	 <h1>Potature</h1>
+	        
+	 </div>
+    </div>
+    </div>
+	
+	
+ <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+<span class="gyphicon plyphicon-chevron-left"></span>
+</a>
+<a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+<span class="gyphicon plyphicon-chevron-right"></span>
+</a>
+
+   </div>	
+	
+	
+
+
+<!-- Buton care scoate de sus alte butoane sau poate fi incadrat in About -->
+
+        
+		
+		<div id="MyModal" class="modal fade" role="dialog">
+		     <div class="modal-dialog">
+			    <div class="modal-content">
+				    <div class="modal-header">
+					         <button type="button" class="close" data-dismiss="modal">&times;</button>
+							 <h1 class="modal-title">New Green</h1> 
+					</div>
+					<div class="modal-body">
+					      
+					      <p> Preventivi gratuiti, senza impegno.</p>
+					      <p>Telefono : 3208713167; 3382632432</p>
+						  <p>Email: newgreen2009@gmail.com</p>
+						  <p>Facebook: New Green Giardini</p>
+						  
+					</div>
+					<div class="modal-footer">
+					     <button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
+					</div>
+				</div>
+			 </div>
+		</div>
+
+<!-- button de email pus in bara de sus, trebuie si linkul pentru buton pus in bara 
+   <li><a href="#" data-toggle="modal" data-target="#contact">Email</a></li>  -->
+
+
+
+         <div class="modal fade"id="contact" role="dialog">
+		     <div class="modal-dialog">
+			    <div class="modal-content">
+				  <form class="form-horizontal" role="form" method="GET" action="sendForm.php">
+				    <div class="modal-header">
+					      <h4>Email</h4>
+					  </div>
+					   <div class="modal-body">
+					      <div class="form group">
+							<div class="row">
+						      <label for="contact-name" class="col-sm-2 control-label">Name</label>
+							  <div class="col-sm-10">
+							       <input type="text" class="form-control" id="contact-name" placeholder="First & Last  Name" name="name">
+							  </div>
+							</div>
+					      </div>
+						  <div class="form group">
+						  <div class="row">
+						      <label for="contact-email" class="col-sm-2 control-label">email</label>
+							  <div class="col-sm-10">
+							       <input type="email" class="form-control" id="contact-email" placeholder="example@domain.com" name="email">
+							  </div>
+							  </div>
+					      </div>
+						  <div class="form group">
+						  <div class="row">
+						      <label for="contact-contact-message" class="col-sm-2 control-label">Message</label>
+							  <div class="col-sm-10">
+							       <textarea class="form-control" rows="4" name="message"></textarea>
+							  </div>
+							  </div>
+					      </div>
+						  </div>
+					   <div class="modal-footer">
+					          <a class="btn btn-default" data-dismiss="modal">Close</a>
+							  <button type="submit" class="btn btn-primary">Send</button>
+						
+					   </div>
+				  </form>
+				</div>
+			</div>
+		</div>		
+		
+		
+		
+		
+		
+		
+<!-- Continutul -->	
+
+
+<hr>
+
+<!-- Headuri cu butoane si linia de butoane colorate -->
+<div class="row">
+<div class="col-md-4">
+<!-- tagul ce pune imaginea deasura headului-->
+<a href="irrigatori.html" class="thumbnail">
+<img src="img/393.jpg" alt="foto 1">
+</a>
+<h3>Impianti di irrigazione per giardino</h3>
+<p>La vita delle piante dipende in gran parte dalle risorse idriche, tanto che la mancanza totale di acqua o un insufficiente apporto idrico, specialmente in estate, possono compromettere sensibilmente la salute di alberi e arbusti. I sistemi di irrigazione automatici o manuali sono tra i metodi più utilizzati per ovviare a questi inconvenienti. Gli impianti di irrigazione permettono, infatti, di assicurare la giusta quantità d'acqua alle piante, oltre ad essere facilmente adattabili ad ogni tipo di area verde.</p>
+<p>Creare un impianto di irrigazione richiede però la consulenza di esperti del settore, in grado di effettuare una serie di analisi e consigliare la soluzione più adatta alle diverse tipologie di giardini, prati, orti, aiuole, terrazze ecc. New Green mette, infatti, a disposizione dei propri clienti, esperto nel rispondere a qualsiasi esigenza di irrigazione, avvalendosi di moderne tecnologie ed impiegando materiali di prima scelta per la costruzione degli impianti.<p/>
+
+</div>
+
+<div class="col-md-8">
+
+<div class="thumbnails group">
+						
+					<a href="img/36.jpg" data-lightbox="imagini" title="Irrigazione"><img src="img/36.jpg" width="120" height="85" ></a>
+					<a href="img/38.jpg" data-lightbox="imagini" title="Irrigazione"><img src="img/38.jpg" width="120" height="85" ></a>
+					<a href="img/39.jpg" data-lightbox="imagini" title="Irrigazione"><img src="img/39.jpg" width="120" height="85" ></a>
+					<a href="img/391.jpg" data-lightbox="imagini" title="Irrigazione"><img src="img/391.jpg" width="120" height="85" ></a>
+					<a href="img/392.jpg" data-lightbox="imagini" title="Irrigazione"><img src="img/392.jpg" width="120" height="85" ></a>
+					<a href="img/34.jpg" data-lightbox="imagini" title="Irrigazione"><img src="img/34.jpg" width="120" height="85" ></a>
+					<a href="img/33.jpg" data-lightbox="imagini" title="Irrigazione"><img src="img/33.jpg" width="120" height="85" ></a>
+					<a href="img/4.jpg" data-lightbox="imagini" title="Irrigazione"><img src="img/4.jpg" width="120" height="85" ></a>
+					
+	</div>				
+
+<h3>Scelta del sistema di irrigazione più adatto alle tue esigenze</h3>
+
+<p><big><span id="span2">Progettazione e realizzazione di impianti di irrigazione.</span></big></p>
+<UL TYPE=square>
+<li>Omogeneità nell’ apporto e nella distribuzione della quantità d’acqua.</li>
+<li>Risparmio idrico, sensore pioggia, sensore umidità.</li>
+<li>Programmatore per irrigazione automatica <b><big><font color="blue">WI-FI</font></b> , compatibile con <b>IOS, Android</b> o <b>Windows Phone</b>.</li>
+</UL>
+<p>Il primo passo da fare è quello di scegliere l’impianto più adatto alle tue esigenze.</p>
+<p>Noi non proponiamo infatti un unico sistema di irrigazione: per tale ragione sarà necessario verificare quale tra i seguenti impianti può fare al caso tuo.</p>
+<p><span id="span2">Esistono impianti di irrigazione:</span></p>
+<p>>fuori terra</p>
+<p>>a goccia</p>
+<p>>il sistema di irrigazione interrata (subirrigazione)</p>
+<p>Un buon impianto di irrigazione rappresenta il miglior modo di valorizzare il verde ed ottimizzare il proprio tempo.</p>
+<p>E’ necessario dunque comprendere quanto sia importante la corretta progettazione ed installazione di un impianto d’irrigazione per giardino di semplice utilizzo ma avanzato tecnologicamente.</p>
+<p>Ti affiancheremo nella scelta dell’impianto per irrigazione più adatto alle tue necessità in tutta la fase che va dalla progettazione sino all'installazione.</p>
+<p>Avrai a disposizione tutta la nostra serietà e le nostre competenze necessarie per risolvere ogni potenziale problema sia precedente che successivo all’installazione del tuo impianto ideale, nonché relativo alla sua manutenzione.</p>
+
+<p>Garantire un giusto apporto di acqua al nostro verde è di fondamentale importanza se si desidera godere di un giardino sano, curato e gradevole.</p>
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+		
+		
+<h1>CONSULTATECI PER UN PREVENTIVO GRATUITO !!!!</h1>
+<h3>Prova solo una volta e non cambierai più !!! </h3>		
+		
+<a href="index.html" class="thumbnail">
+<button type=button class="btn btn-primary">Indietro</button>
+</a>		
+		
+</body>
+
+
+
+
+<!-- Fixed footer -->	
+<div class="navbar navbar-inverse navbar-static-bottom">
+ <div class="container">
+ <div class="navbar-text pull-left">
+ <p> Copyright @ New Green 2017 </p>
+  </div>
+  
+<!-- Imagini site de socializare in footer -->
+  <div class="navbar-text pull-right">
+  <a href="https://www.facebook.com/new.greengiardini.9?fref=ts"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+  <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+  <a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+  </div>
+  
+ </div>
+</div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+</html>
